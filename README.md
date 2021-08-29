@@ -12,6 +12,12 @@ to deploy the app in heroku :
 console.log("server is up and started @3k");
 }
 
+Make sure to create a file in the same folder of your project named "Procfile" then open it in code . then add
+
+=> web: node app.js
+
+in that file that's it !!!
+
 Then go to hyper terminal and add following commands:
 => git init
 => git add .
